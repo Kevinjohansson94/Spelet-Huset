@@ -115,6 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="houseHelper.c" />
+    <ClCompile Include="houseManager.c" />
+    <ClCompile Include="Main_huset.c" />
+    <ClCompile Include="myIOLib.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header_huset.h" />
+    <ClInclude Include="houseHelper.h" />
+    <ClInclude Include="houseManager.h" />
+    <ClInclude Include="myIOLib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
